@@ -16,7 +16,9 @@ function renderLicenseBadge(license) {
   }else {
     yourLicense = "N/A"
   }
+  console.log(yourLicense);
   return yourLicense;
+  
 };
 
 function generateMarkdown(answer) {
@@ -31,11 +33,11 @@ function generateMarkdown(answer) {
     let licenseType = license;
     let yourLicense = ''
     if(licenseType === 'MIT') {
-      yourLicense = `![License: MIT](https://opensource.org/licenses/MIT)`
+      yourLicense = `[License: MIT](https://opensource.org/licenses/MIT)`
     } else if (licenseType === 'Apache') {
-      yourLicense = `![License](https://opensource.org/licenses/Apache-2.0)`
+      yourLicense = `[License](https://opensource.org/licenses/Apache-2.0)`
     }  else if (licenseType === 'GNU') {
-      yourLicense = `![License: GNU](https://www.gnu.org/licenses/gpl-3.0)`
+      yourLicense = `[License: GNU](https://www.gnu.org/licenses/gpl-3.0)`
   }else {
     yourLicense = "N/A"
   }
@@ -50,16 +52,16 @@ function generateMarkdown(answer) {
   
   // TODO: Create a function that returns the license section of README
   // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  let licenseType = license;
-  let yourLicense = ''
-  if(licenseType === '') {
-    yourLicense = "N/A"
-  }else {
-    licenseType = `license: ${license}`
-  }
-  return yourLicense;
-};
+// function renderLicenseSection(license) {
+//   let licenseType = license;
+//   let yourLicense = ''
+//   if(licenseType === '') {
+//     yourLicense = "N/A"
+//   }else {
+//     licenseType = `license: ${license}`
+//   }
+//   return yourLicense;
+// };
 
 
 // TODO: Create a function to generate markdown for README
@@ -85,7 +87,8 @@ function generateMarkdown(answer) {
   ## Tests
   ${answer.tests}
   ## license
-  ${renderLicenseBadge(answer.license), renderLicenseLink(answer.license), renderLicenseSection(answer.license)}
+  ${renderLicenseBadge(answer.license)}
+  ${renderLicenseLink(answer.license)}
   ## Git
   ${answer.git}
   ## Email

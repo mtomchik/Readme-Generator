@@ -19,7 +19,8 @@
   ## Tests
   asdf
   ## license
-  
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  [License: MIT](https://opensource.org/licenses/MIT)
   ## Git
   asdf
   ## Email

@@ -38,8 +38,8 @@ const questions= [
   },
   {
    type: 'list',
-   message: 'What licence would you like to use?',
-   name: 'licence',
+   message: 'What license would you like to use?',
+   name: 'license',
    choices:['MIT', 'Apache', 'GNU', 'N/A'],
   },
   {
