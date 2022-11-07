@@ -3,8 +3,11 @@
 #Description
 this is a Readme generator using node js.
 
-Usage
+#Visuals
+![](/assets/readmegeneratorvideo.gif)
+
+#Usage
 This app can be used to generate a Readme file that you can use on your projects.
 
-Support
+#Support
 send concerns or bugs to https://github.com/mtomchik/Readme-Generator

@@ -1,4 +1,4 @@
-# asdf
+# matts readme
 
   *[Description](#description)
   *[Installation](#installation)
@@ -9,19 +9,19 @@
   *[Git](#git)
   *[Email](#email)
   # Description
-  asdf
+  its a readme generator
   ## Installation
-  asdf
+  by downloading
   ## Use
-  asdf
+  to generate a readme
   ## Contributing
-  asdf
+  email creator
   ## Tests
-  asdf
+  run tests
   ## license
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   [License: MIT](https://opensource.org/licenses/MIT)
   ## Git
-  asdf
+  mtomchik
   ## Email
-  asdf
+  to email
